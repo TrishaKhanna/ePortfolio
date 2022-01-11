@@ -10,13 +10,6 @@ import java.util.Iterator;
 
 public class Portfolio
 {
-
-    private HashMap<String, ArrayList<Integer>> hashGenerate = new HashMap<String, ArrayList<Integer>>();
-
-            //HashMap<String, ArrayList<Integer>> investHM = new HashMap<String, ArrayList<Integer>>();
-
-
-
     public static void main(String[] args)
     {   
         // OPTION (1):
@@ -742,90 +735,6 @@ public class Portfolio
 
                 totalGain = investGain;
                 System.out.println("The final total gain from all the INVESTMENTS combined is: " + totalGain);
-            }
-
-            /*************************************************************************************************************/
-            /*************************************************************************************************************/
-            /*************************************************************************************************************/
-            /***************************************************OPTION 5**************************************************/
-            /*************************************************************************************************************/
-            /*************************************************************************************************************/
-            /*************************************************************************************************************/
-            /*************************************************************************************************************/
-
-            // OPTION 4: SEARCH
-            if(userInput.equals("5"))
-            {
-                // Convert arraylist to hashmap
-                /*Hashmap <String, Integer> investmentHashMap = convertArrayListToHashMap(investmentHashMap);
-
-                // Print the hashmap
-                for(Map.Entry<String, Integer> entry : investmentHashMap.entrySet())
-                {
-                    System.out.println(entry.getKey() + " : " + entry.getValue());
-                }
-
-                private static HashMap<String, Integer> convertArrayListToHashMap(ArrayList<String> arrayList)
-                {
-                    // CHANGE TO <String, ArrayList>
-                    HashMap <String, Integer> hashMap = new HashMap<>();
-
-                    for (String str : arrayList) 
-                    {
-                        hashMap.put(str, str.length());
-                    }
-  
-                    return hashMap;
-                }
-
-                // Search using keywords
-                String keyword;
-                Scanner checkKey = new Scanner(System.in); // Scan user's program keyword
-
-                //Ask user for their program keyword input
-                System.out.println("Enter the name keyword you would like to search: ");
-                keyword = checkKey.nextLine();
-
-                // Displaying the HashMap
-                System.out.println("Initial Mappings are: " + investmentHashMap);
-
-                if(investmentHashMap.containsKey(keyword))
-                {
-                    System.out.println("This name keyword was found in the following investment")
-                    System.out.println("Program: " + keyword + "  was found --  " + collection.get(i).toString());
-                }*/
-
-                return;
-  
-            }
-
-            
-
-            if((userInput.equalsIgnoreCase("q") || userInput.equalsIgnoreCase("quit")))
-            {
-                // Load newly created investments to user inputted
-                try
-                {
-                    FileWriter writer = new FileWriter(args[0]);
-                    int i = 0;
-
-                    for(Investment str : investList)
-                    {
-                        System.out.println("------Contents of str.toString()------" + str.toString());
-                        //writer.write(str.get(i).toFile() + System.lineSeparator());
-                        writer.write(str.toString() + System.lineSeparator());
-                    }
-
-                    writer.close();
-                }
-
-                catch(Exception e)
-                {
-                    System.out.println("Could not open file.");
-                }
-
-                System.out.println("userInput: "+ userInput);
-                break;
             }
 
         }while(true);
