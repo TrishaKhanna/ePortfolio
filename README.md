@@ -29,11 +29,11 @@
 * (c) Gain: Gain/share = $16,055.02
 * (d) Sell: 200 shares of this stock at $142.23 therefore payment received = $28,436.01, bookValue =  $33,029.9
 
--> For MUTUAL FUNDS:
-* (a) Buy: 450 units of SSETX at $53.26 per unit, therefore bookValue =  $23,967.00.
-* (b) Update: Price Update = 42.21
-* (c) Gain: Gain/share = –$5,017.50
-* (d) Sell:  150 units of this fund at $42.21 per unit, therefore payment received = $6,286.50, bookValue = $15,978.00
+* For MUTUAL FUNDS:
+  * (a) Buy: 450 units of SSETX at $53.26 per unit, therefore bookValue =  $23,967.00.
+  * (b) Update: Price Update = 42.21
+  * (c) Gain: Gain/share = –$5,017.50
+  * (d) Sell:  150 units of this fund at $42.21 per unit, therefore payment received = $6,286.50, bookValue = $15,978.00
 
 -> Additional testing factors:
 * (a) The Load section of this assignment replaces the double-inverted commas used in the text file to read the contents of the file correctly
