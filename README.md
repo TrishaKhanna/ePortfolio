@@ -2,7 +2,7 @@
 **Digital Investment Portfolio**
 
 ********************************************************************
-(1) Problem being solved
+###### (1) Problem being solved
 ********************************************************************
 - This ePortfolio banking system allows the user to:
   a) load investments from a text file that is inputted at the command line
@@ -13,14 +13,14 @@
   f) Save all the newly created investments from running the program into the original user-inputted text file
 
 ********************************************************************
-(2) How can the user build and test your program
+###### (2) How can the user build and test your program
 ********************************************************************
 - the folder can be run using the following commands:
   javac *.java
   java ePortfolio.Portfolio
 
 ********************************************************************
-(3) How is the program tested?
+###### (3) How is the program tested?
 ********************************************************************
 - Testing Plan - Example test scenario
 -> For STOCKS:
