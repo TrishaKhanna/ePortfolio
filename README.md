@@ -5,12 +5,12 @@
 ###### (1) Problem being solved
 ********************************************************************
 - This ePortfolio banking system allows the user to:
-  a) load investments from a text file that is inputted at the command line
-  b) buy - investments of 2 types; stocks and mutual funds
-  c) sell - investments of 2 types; stocks and mutual funds
-  d) calculate gains - after buying and or selling certain stocks and mutual funds
-  e) update - update values for prices of all stocks and mutual funds according to the user's input
-  f) Save all the newly created investments from running the program into the original user-inputted text file
+* a) load investments from a text file that is inputted at the command line
+* b) buy - investments of 2 types; stocks and mutual funds
+* c) sell - investments of 2 types; stocks and mutual funds
+* d) calculate gains - after buying and or selling certain stocks and mutual funds
+* e) update - update values for prices of all stocks and mutual funds according to the user's input
+* f) Save all the newly created investments from running the program into the original user-inputted text file
 
 ********************************************************************
 ###### (2) How can the user build and test your program
