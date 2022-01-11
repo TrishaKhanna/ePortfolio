@@ -1,61 +1,9 @@
 package ePortfolio;
 
-/* 
-  SIMILARITIES b/w STOCKS + MUTUAL FUNDS:
-- **********Same constructor**********
-- **********Same toString() Method**********
-- **********Same getSymbol() Method**********
-- **********Same setQuantity() Method**********
-- **********Same getQuantity() Method**********
-- **********Same setPrice() Method**********
-- **********Same setBookvalue() Method**********
-- **********Same getSellBookValue() Method**********
-- **********Same getsomeBookValue() Method**********
-*/
-
-
-/* 
-  DIFFERENCES b/w STOCKS + MUTUAL FUNDS:
-  - **********different getBookval() Method**********
-  - **********different getGain() Method**********
-  - **********different getPaymentreceived() Method**********
-*/
-
-
- /*
-  QUESTIONS:
-  - DONE -- Do we still have to call the Portfolio class Portfolio, if so, how do we run our files with the new Investment Super Class? --Can do it the SAME WAY AS THE LAST TIME; ePortfolio.Portfolio
-
-  - DONE -- How to access different getPaymentreceievd methods from STOCKS/MUTUAL FUNDS since the formula is diff for stocks, mutual funds, however,
-    both are being stored in the same arraylist, investList? -- NO NEED!!
-
-  - DONE -- How to apply DIFFERENT getGain() formulae if the stocks and mutual funds are being stored in the same arraylist, investList? -- NO NEED!
-
-  - DONE -- GET RID OF DOUBLE FN IN UPDATE
-
-  - DONE -- Do we have to include the "" in the input file we load content from?
-
-  - DONE -- Can I split using \n?
-
-  - When do we add the loading from file and saving to file functionality? -- within do-while loop or outside of it?
-
-  - How do we update indices for buying and selling if we're only supposed to use a hashmap for the search method?
-
-  - How to print investment if found in hashmap?
-
-  - How to check for symbol, price ranges since the key in the hashmap consists of the name keyword?
-
-  - NOT PRINTING OUT FULL ARRAYLIST WHEN BUY IS CALLED?
-
-  - PRINTING OUT 0  FOR LOAD PART?
-
-  - HOW TO UPDATE BUY/SELL WITH HASHMAP?
- */
-
 // Super Class: INVESTMENT
 public class Investment
 {
-	private String symbol;
+    private String symbol;
     private String name; 
     private int quantity; 
     private float price;
@@ -70,25 +18,6 @@ public class Investment
         this.price = price;
         this.bookValue = bookValue;
     }
-
-    // Convert arrayList to String
-    /*public String toString()
-    {
-    	int i;
-    	if(Investment.get(i) instanceof Stock)
-    	{
-    		System.out.println("type = stock");
-    	}
-
-    	if(Investment.get(i) instanceof MutualFund)
-    	{
-    		System.out.println("type = mutualfund");
-    	}
-
-    	super.toString();
-
-        return ("Symbol: " + this.symbol + "\n" + "Name: " + this.name + "\n" + "Quantity: " + this.quantity + "\n" + "Price: " + this.price + "\n" + "BookValue: " + this.bookValue + "\n");
-    }*/
 
     // Get Symbol
     public String getSymbol() 
