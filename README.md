@@ -5,7 +5,7 @@
 ###### (1) Problem being solved
 ********************************************************************
   This ePortfolio banking system allows the user to:
-* a) load investments from a text file that is inputted at the command line
+* a) load investments from a text file that is inputted at the command line (e.g. test.txt provided in repository)
 * b) buy - investments of 2 types; stocks and mutual funds
 * c) sell - investments of 2 types; stocks and mutual funds
 * d) calculate gains - after buying and or selling certain stocks and mutual funds
