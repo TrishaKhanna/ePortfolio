@@ -1,5 +1,6 @@
 # ePortfolio
 **Digital Investment Portfolio**
+- Established a frontend GUI using Java and Swing
 
 ********************************************************************
 ###### (1) Problem being solved
